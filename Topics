@@ -31,6 +31,8 @@ Classes
   - return string 
   - setters 
   - getters 
+  - instantiate classes 
+  - function calls
 
 Decorators 
 Iterators 
