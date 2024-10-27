@@ -1,0 +1,39 @@
+Data Types 
+ - List 
+ - Dictionary 
+ - Tuple 
+ - Set 
+
+Strings 
+  - substrings
+
+Iterateor 
+  - for loop in list 
+  - for loop in dict 
+  - while loop 
+  - range function 
+  - length function
+
+Conditions 
+  - if 
+  - elif 
+
+Comparisions 
+  - not 
+  - not in 
+  - .equals 
+
+Classes
+  - constructors 
+  - variables
+  - definitions 
+  - inheritance 
+  - return string 
+  - setters 
+  - getters 
+
+Decorators 
+Iterators 
+Generators 
+
+
