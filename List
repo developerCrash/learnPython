@@ -1,1 +1,24 @@
 This Doc describes list data type in python
+
+
+
+my_list = [] 
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+
+print(my_list)
+
+my_list.pop()
+
+print(my_list.pop())
+
+for i in my_list:
+  print (i)
+
+if 10 in my_list:
+  print ("item is present in the list") 
+else:
+  print ('item is not present in the list')
+
