@@ -1,1 +1,29 @@
 This Doc Describes Set Data type in python 
+
+## Sets are Unordered, means you cannot access items with an index 
+## Ex: my_set[0] -> Throws an error
+# Duplicate values are not allowed
+
+## This is minly used to remove Dublicates
+my_set = {"abc", 34, True, 40, "male"}
+
+print(my_set)
+
+my_set.add("xyz")
+my_set.add("abc") ## Throws error since 'abc' is already present in he set
+
+for i in my_set:
+    print(i)
+
+    
+if "abc" in my_set:
+    print("True")
+
+if "xyz" not in my_set:
+    print("False")
+
+print (len(my_set))
+
+
+
+
