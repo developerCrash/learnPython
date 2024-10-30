@@ -1,1 +1,36 @@
 This Doc describes Dictionary data type in Python 
+
+# Empty Dictionary 
+my_dict = {}
+
+# Add items to Dictionary 
+my_dict = { 'name' = 'Kumar',
+            'age' = '25',
+            'USN' = '20041020' }
+
+
+## Accessing individual items
+print(my_dict['name'])
+print(my_dict['age'])
+
+
+## Iterate individual items in a dictionary and print
+for i in my_dict:
+  print ("key is " + i + "and value is " + my_dict[i])
+
+
+## Iterate Key value pairs in a dictionary and print
+for key, value in my_dict.items():
+  print ("key is " + key + "and value is " + value)
+
+
+# If condition in a dictionary
+if 'name' in my_dict:
+  print(my_dict['name'])
+
+
+if 'name' not in my_dict:
+  print("Name Does not exists")
+
+
+
