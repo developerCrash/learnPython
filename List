@@ -18,7 +18,7 @@ for i in my_list:
   print (i)
 
 ## Print Items in reverse order 
-for i in my_list[-1]:
+for i in my_list[::-1]:
   print(i)
 
 if 10 in my_list:
