@@ -40,6 +40,11 @@ def timing(func):
         return result
     return wrapper
 
+@timing  
+def add_nums(a, b):
+    print(a+b)
+    
+add_nums(20, 30)
 
 def is_authenticated(username, password):
     return username == "admin" and password == "admin"
@@ -56,8 +61,4 @@ def add_nums(a, b):
     print(a+b)
     
 add_nums(20, 30)
-@timing  
-def add_nums(a, b):
-    print(a+b)
-    
-add_nums(20, 30)
+
